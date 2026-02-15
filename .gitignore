@@ -1,0 +1,59 @@
+node_modules
+**/node_modules/
+
+# Build outputs
+dist/
+**/dist/
+build/
+**/build/
+out/
+**/out/
+server/dist/
+
+# Next.js / Vercel
+.next/
+**/.next/
+.vercel/
+**/.vercel/
+
+# Turbo / SWC
+.turbo/
+**/.turbo/
+.swc/
+**/.swc/
+
+# Coverage
+coverage/
+**/coverage/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local env files / scripts
+.env
+.env.*
+!.env.example
+env.local.sh
+env.production.sh
+
+# Tooling caches
+*.tsbuildinfo
+.eslintcache
+
+# Generated fixtures (large, derived)
+fixtures/output/
+server/fixtures/output/
+
+# OpenCode / OhMyOpenCode
+.opencode/
+**/.opencode/
+oh-my-opencode.json
+oh-my-opencode.json.*
+
+# macOS
+.DS_Store
+**/.DS_Store

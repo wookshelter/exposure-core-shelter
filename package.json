@@ -1,0 +1,35 @@
+{
+  "name": "exposure-core",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:web": "pnpm -C apps/web dev",
+    "build:web": "pnpm -C apps/web build",
+    "start:web": "pnpm -C apps/web start",
+    "lint:web": "pnpm -C apps/web lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "packageManager": "pnpm@10.15.0",
+  "dependencies": {
+    "@graphql-typed-document-node/core": "^3.2.0",
+    "@vercel/blob": "^2.0.0",
+    "graphql": "^16.12.0",
+    "graphql-request": "^7.4.0",
+    "viem": "^2.45.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@types/node": "^25.0.3",
+    "@vercel/node": "^5.3.10",
+    "eslint": "^9.39.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.50.1"
+  }
+}

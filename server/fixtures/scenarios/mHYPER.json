@@ -1,0 +1,13 @@
+{
+  "name": "mHYPER",
+  "assets": ["mHYPER"],
+  "providers": {
+    "midas": {
+      "allocations": "providers/midas/allocations.json"
+    },
+    "debank": {
+      "walletsDir": "providers/debank/wallets/mHYPER"
+    }
+  },
+  "overrides": []
+}

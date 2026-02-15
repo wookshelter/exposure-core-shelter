@@ -1,0 +1,13 @@
+{
+  "name": "mAPOLLO",
+  "assets": ["mAPOLLO"],
+  "providers": {
+    "midas": {
+      "allocations": "providers/midas/allocations.json"
+    },
+    "debank": {
+      "walletsDir": "providers/debank/wallets/mAPOLLO"
+    }
+  },
+  "overrides": []
+}

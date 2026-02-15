@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+/* SVG treemap tile interactions */
+.exposure-tile {
+  touch-action: manipulation;
+}
+
+.exposure-tile-rect {
+  transform-box: fill-box;
+  transform-origin: center;
+  transition:
+    transform 120ms cubic-bezier(0.33, 1, 0.68, 1),
+    opacity 120ms cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+.exposure-tile-rect--pressed {
+  transform: scale(0.985);
+  opacity: 0.92;
+}
+
+.exposure-tile-click {
+  transform-box: fill-box;
+  transform-origin: center;
+  pointer-events: none;
+  animation: exposure-tile-click 260ms cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+@keyframes exposure-tile-click {
+  0% {
+    opacity: 0;
+    transform: scale(0.992);
+  }
+  35% {
+    opacity: 1;
+    transform: scale(1.01);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.02);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
