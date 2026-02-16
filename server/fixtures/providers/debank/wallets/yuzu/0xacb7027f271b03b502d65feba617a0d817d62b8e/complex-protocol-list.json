@@ -1,0 +1,83 @@
+[
+  {
+    "chain": "plasma",
+    "dao_id": null,
+    "has_supported_portfolio": true,
+    "id": "plasma_yuzumoney",
+    "is_tvl": false,
+    "is_visible_in_defi": null,
+    "logo_url": "https://static.debank.com/image/project/logo_url/plasma_yuzumoney/0c0b4b8c775bdd7bfc93a72cf3f18617.png",
+    "name": "Yuzu Money",
+    "platform_token_id": null,
+    "portfolio_item_list": [
+      {
+        "asset_dict": {
+          "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb": 2.804087
+        },
+        "asset_token_list": [
+          {
+            "amount": 2.804087,
+            "chain": "plasma",
+            "decimals": 6,
+            "display_symbol": null,
+            "id": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+            "is_core": true,
+            "is_verified": true,
+            "is_wallet": true,
+            "logo_url": "https://static.debank.com/image/plasma_token/logo_url/0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb/8bba37fddc2774e06a94b8952e3e3ad7.png",
+            "name": "USDT0",
+            "optimized_symbol": "USDT0",
+            "price": 0.99857,
+            "protocol_id": "plasma_usdt0",
+            "symbol": "USDT0",
+            "time_at": 1757345331.0
+          }
+        ],
+        "detail": {
+          "description": "Yuzu USD",
+          "supply_token_list": [
+            {
+              "amount": 2.804087,
+              "chain": "plasma",
+              "decimals": 6,
+              "display_symbol": null,
+              "id": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+              "is_core": true,
+              "is_verified": true,
+              "is_wallet": true,
+              "logo_url": "https://static.debank.com/image/plasma_token/logo_url/0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb/8bba37fddc2774e06a94b8952e3e3ad7.png",
+              "name": "USDT0",
+              "optimized_symbol": "USDT0",
+              "price": 0.99857,
+              "protocol_id": "plasma_usdt0",
+              "symbol": "USDT0",
+              "time_at": 1757345331.0
+            }
+          ]
+        },
+        "detail_types": ["common"],
+        "name": "Yield",
+        "pool": {
+          "adapter_id": "tokenized_vault_yield",
+          "chain": "plasma",
+          "controller": "0x6695c0f8706c5ace3bdf8995073179cca47926dc",
+          "id": "0x6695c0f8706c5ace3bdf8995073179cca47926dc",
+          "index": null,
+          "project_id": "plasma_yuzumoney",
+          "time_at": 1760101805
+        },
+        "proxy_detail": {},
+        "stats": {
+          "asset_usd_value": 2.80007715559,
+          "debt_usd_value": 0,
+          "net_usd_value": 2.80007715559
+        },
+        "update_at": 1770205632.0,
+        "withdraw_actions": []
+      }
+    ],
+    "site_url": "https://app.yuzu.money",
+    "tag_ids": ["yield_aggregator"],
+    "tvl": 30923134.073860873
+  }
+]
