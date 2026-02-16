@@ -1,0 +1,82 @@
+[
+  {
+    "chain": "eth",
+    "dao_id": null,
+    "has_supported_portfolio": true,
+    "id": "fluid",
+    "is_tvl": false,
+    "is_visible_in_defi": null,
+    "logo_url": "https://static.debank.com/image/project/logo_url/fluid/faeb92cc788df0676eb21db724f80704.png",
+    "name": "Fluid",
+    "platform_token_id": "0x6f40d4a6237c257fff2db00fa0510deeecd303eb",
+    "portfolio_item_list": [
+      {
+        "asset_dict": {
+          "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": 18373280.130212
+        },
+        "asset_token_list": [
+          {
+            "amount": 18373280.130212,
+            "chain": "eth",
+            "decimals": 6,
+            "display_symbol": null,
+            "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "is_core": true,
+            "is_verified": true,
+            "is_wallet": true,
+            "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/fffcd27b9efff5a86ab942084c05924d.png",
+            "name": "USD Coin",
+            "optimized_symbol": "USDC",
+            "price": 1.0009008107296566,
+            "protocol_id": "",
+            "symbol": "USDC",
+            "time_at": 1533324504.0
+          }
+        ],
+        "detail": {
+          "description": "Fluid USD Coin",
+          "supply_token_list": [
+            {
+              "amount": 18373280.130212,
+              "chain": "eth",
+              "decimals": 6,
+              "display_symbol": null,
+              "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+              "is_core": true,
+              "is_verified": true,
+              "is_wallet": true,
+              "logo_url": "https://static.debank.com/image/eth_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/fffcd27b9efff5a86ab942084c05924d.png",
+              "name": "USD Coin",
+              "optimized_symbol": "USDC",
+              "price": 1.0009008107296566,
+              "protocol_id": "",
+              "symbol": "USDC",
+              "time_at": 1533324504.0
+            }
+          ]
+        },
+        "detail_types": ["common"],
+        "name": "Yield",
+        "pool": {
+          "adapter_id": "tokenized_vault_yield",
+          "chain": "eth",
+          "controller": "0x9fb7b4477576fe5b32be4c1843afb1e55f251b33",
+          "id": "0x9fb7b4477576fe5b32be4c1843afb1e55f251b33",
+          "index": null,
+          "project_id": "fluid",
+          "time_at": 1708173263
+        },
+        "proxy_detail": {},
+        "stats": {
+          "asset_usd_value": 18389830.978092283,
+          "debt_usd_value": 0,
+          "net_usd_value": 18389830.978092283
+        },
+        "update_at": 1770033941.0
+      }
+    ],
+    "site_url": "https://fluid.io",
+    "tag_ids": [],
+    "tvl": 785608512.2951972
+  }
+]
