@@ -30,6 +30,15 @@ export const createMockFetch = (config: {
       if (response) return response;
     }
 
+    // Safety: never fall back to real Debank requests from local fixture runners.
+    // Debank API is paid; missing fixtures should fail fast instead.
+    if (url.includes("debank.com")) {
+      throw new Error(
+        `Blocked real Debank fetch: ${url}\n` +
+          `Provide a fixture response under server/fixtures/providers/debank/ and retry.`,
+      );
+    }
+
     if (allowRealFetch) {
       return realFetch(input, init);
     }

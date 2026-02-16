@@ -11,7 +11,6 @@ import {
   createDebankBundleHandler,
   createDebankHandler,
 } from "../resolvers/debank/mock";
-import { createInfinifiApiHandler } from "./mock";
 
 const INFINIFI_BUNDLE_ID = "220816";
 
@@ -21,8 +20,8 @@ export const run = async (argv: string[]): Promise<void> => {
 
   const fetchImpl = createMockFetch({
     enabledProviders: ["infinifi", "debank"],
+    allowRealFetch: true,
     handlers: [
-      createInfinifiApiHandler(),
       createDebankBundleHandler({
         root,
         protocol: "infinifi",
